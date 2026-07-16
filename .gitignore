@@ -1,0 +1,19 @@
+# Секреты — НИКОГДА не коммитить!
+.env
+
+# Go
+*/bin/
+*/tmp/
+**/go.sum
+
+# Медиафайлы (хранятся на сервере, не в репозитории)
+media-service/uploads/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
